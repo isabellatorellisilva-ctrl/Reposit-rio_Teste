@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HairCare Blog | Dicas e Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Hair<span>Care</span></div>
+        <nav>
+            <button class="filter-btn active" data-category="todos">Todos</button>
+            <button class="filter-btn" data-category="shampoo">Shampoos</button>
+            <button class="filter-btn" data-category="mascara">Máscaras</button>
+            <button class="filter-btn" data-category="finalizador">Finalizadores</button>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Descubra o Segredo do Cabelo Perfeito</h1>
+        <p>Resenhas sinceras, rotinas de cuidados e os melhores produtos do mercado.</p>
+    </section>
+
+    <main class="products-container">
+        
+        <article class="product-card" data-category="shampoo">
+            <div class="product-thumb">
+                <img src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=500" alt="Shampoo Hidratante">
+            </div>
+            <div class="product-info">
+                <span class="category-tag">Shampoo</span>
+                <h2>Shampoo Hidratação Profunda</h2>
+                <p>Ideal para cabelos secos e quebradiços. Limpa sem ressecar e devolve o brilho natural dos fios já na primeira lavagem.</p>
+                <a href="#" class="read-more">Ler Resenha completa</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="mascara">
+            <div class="product-thumb">
+                <img src="https://images.unsplash.com/photo-1608248597481-496100c80836?w=500" alt="Máscara de Nutrição">
+            </div>
+            <div class="product-info">
+                <span class="category-tag">Máscara</span>
+                <h2>Máscara Nutrição Intensa</h2>
+                <p>Formulada com óleos essenciais que repõem os lipídios do cabelo, deixando os fios alinhados, macios e sem frizz.</p>
+                <a href="#" class="read-more">Ler Resenha completa</a>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="finalizador">
+            <div class="product-thumb">
+                <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=500" alt="Óleo Reparador">
+            </div>
+            <div class="product-info">
+                <span class="category-tag">Finalizador</span>
+                <h2>Óleo Reparador de Pontas</h2>
+                <p>Proteção térmica e finalização perfeita. Cria uma película protetora contra o calor do secador e da chapinha.</p>
